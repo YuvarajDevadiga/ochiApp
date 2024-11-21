@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: founders;
+    src: url(./assets/Founders_Grotesk/FoundersGroteskXCond-Bold.otf);
+}
+
+@font-face {
+    font-family: marqueefont;
+    src: url(./assets/Founders_Grotesk/FoundersGroteskXCond-Bold.otf);
+}
+
+.dot:hover>.dotball{
+scale: 4;
+padding: 6px;
+transition:all .3s linear;
+}
+
+.dot:hover>.dotball>span{
+opacity: 1;
+transition:all .3s linear;
+}
